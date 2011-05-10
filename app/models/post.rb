@@ -1,3 +1,3 @@
 class Post < ActiveRecord::Base
-  validates :content, :length=>{:maximum =>140}
+  validates :content, :length=>{:maximum =>160}
 end
